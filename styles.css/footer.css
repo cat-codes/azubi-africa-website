@@ -71,29 +71,4 @@ footer {
 }
 
 /*desktop*/
-@media(min-width: 1280px) {
-  footer {
-    align-items: left;
-  }
-
-  #footer-logo {
-    width: 25%;
-    height: 25%;
-    margin: 10px 0px 20px 0px;
-  }
-
-  .contact-info {
-    display: flex;
-    flex-direction: column;
-    width: 55%;
-    align-items: start
-  }
-
-  .icon {
-    padding: 20px;
-  }
-
-  .footer-text {
-    font-size: 19px;
-  }
-}
+@media(min-width: 1280px) {}
