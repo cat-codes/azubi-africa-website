@@ -7,6 +7,13 @@ footer {
   padding: 40px 55px;
 }
 
+.not-soc-media {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: left;
+}
+
 #footer-logo {
   width: 100%;
   height: 100%;
@@ -23,7 +30,7 @@ footer {
 
 .icon {
   color: #FEFEFE;
-  padding: 10px;
+  padding: 10px 10px 10px 0px;
   cursor: pointer;
 }
 
@@ -62,7 +69,7 @@ footer {
   }
 
   .icon {
-    padding: 20px;
+    padding: 20px 20px 20px 0px;
   }
 
   .footer-text {
@@ -71,4 +78,27 @@ footer {
 }
 
 /*desktop*/
-@media(min-width: 1280px) {}
+@media(min-width: 1280px) {
+  footer {
+    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 50px 150px 40px 150px;
+  }
+
+  .not-soc-media {
+    justify-content: flex-starts;
+    align-items: flex-start;
+  }
+
+  #footer-logo {
+    width: 40%;
+    height: 40%;
+    margin: 20px 0px 20px 0px;
+  }
+
+  .footer-text {
+    font-size: 24px;
+  }
+}
