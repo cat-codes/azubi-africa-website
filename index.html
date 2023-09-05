@@ -14,12 +14,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!--css files-->
   <link rel="stylesheet" href="./styles.css/main.css">
-  <link rel="stylesheet" href="./styles.css/header.css">
   <link rel="stylesheet" href="./styles.css/body.css">
   <link rel="stylesheet" href="./styles.css/footer.css">
   <link rel="stylesheet" href="./styles.css/hamburger-menu.css">
-  <link rel="stylesheet" href="./styles.css/navigation.css">
-  <link rel="stylesheet" href="./styles.css/contact-form.css">
+  <link rel="stylesheet" href="./styles.css/header.css">
+  <link rel="stylesheet" href="./styles.css/contact-us.css">
   <link rel="stylesheet" href="./styles.css/button.css">
   <link rel="stylesheet" href="./styles.css/hero.css">
   <!--tab icon-->
@@ -41,13 +40,18 @@
         <div class="bar"></div>
       </button>
     </div>
+    <!--navigation within menu-->
+    <nav>
+      <a href="#about-us">About Us</a>
+      <a href="#services">Services</a>
+      <a href="#contact-us" class="contact-us-button">Contact Us</a>
+    </nav>
+    <div id="desktop-nav">
+      <a href="#about-us">About Us</a>
+      <a href="#services">Services</a>
+      <a href="#contact-us" class="contact-us-button">Contact Us</a>
+    </div>
   </header>
-  <!--navigation within menu-->
-  <nav>
-    <a href="#about-us">About Us</a>
-    <a href="#services">Services</a>
-    <a href="#contact-us" class="contact-us-button">Contact Us</a>
-  </nav>
   <hero>
     <!--hero image and text-->
     <div class="hero">
@@ -103,22 +107,24 @@
         <button class="button">Read More</button>
       </div>
     </div>
-    <!--contact us section-->
-    <div class="contact-us">
-      <p class="main-header">Contact Us</p>
-      <p class="main-body">If you have any specific concerns, please feel free to contact us.
+  </main>
+  <!--contact us section-->
+  <div class="contact-us">
+    <div class="contact-text">
+      <p class="main-header" id="contact-us">Contact Us</p>
+      <p class="main-body" id="contact-text">If you have any specific concerns, please feel free to contact us.
         <br /><br />We welcome any comments, suggestions, feedback, questions, or requests you have.
       </p>
-      <!--contact form-->
-      <div class="contact-form">
-        <input type="text" class="input" placeholder="Name">
-        <input type="text" class="input" placeholder="Email">
-        <input type="text" class="input" id="message" placeholder="Message">
-      </div>
+    </div>
+    <!--contact form-->
+    <div class="contact-form">
+      <input type="text" class="input" placeholder="Name">
+      <input type="text" class="input" placeholder="Email">
+      <input type="text" class="input" id="message" placeholder="Message">
       <!--submit button-->
       <button class="button" id="submit">Submit</button>
     </div>
-  </main>
+  </div>
   <footer>
     <div class="not-soc-media">
       <!--footer logo-->

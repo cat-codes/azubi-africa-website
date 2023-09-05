@@ -8,7 +8,7 @@
 }
 
 #hr {
-  width: 40%;
+  width: 35%;
   border-top: 1px solid black;
   margin: 10px 0px;
 }
@@ -25,12 +25,12 @@
   font-size: 20px;
   font-weight: 500;
   color: #2E5180;
-  padding: 15px 55px 5px 55px;
+  padding: 15px 50px 5px;
 }
 
 #body3 {
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 300;
   color: black;
   padding: 5px 55px 0px 55px;
 }
@@ -39,26 +39,19 @@
   font-size: 17px;
   font-weight: 500;
   color: #2E5180;
-  padding: 15px 55px 30px 55px;
+  padding: 15px 55px 25px 55px;
 }
 
 .main-body {
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 300;
   color: black;
-  padding: 5px 40px 30px 55px;
+  padding: 10px 40px 30px;
 }
 
 .body-img {
   width: 80%;
   margin-top: 10px;
-}
-
-.contact-us {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 
 /*tablet*/
@@ -118,12 +111,12 @@
   }
 
   #h3 {
-    font-size: 30px;
-    padding: 10px 300px 0px 300px;
+    font-size: 22px;
+    padding: 10px 350px 0px;
   }
 
   #body3 {
-    font-size: 26px;
+    font-size: 20px;
     font-weight: 400;
   }
 
@@ -133,23 +126,22 @@
   }
 
   .main-header {
-    font-size: 30px;
-    padding-left: 0px;
-    padding-right: 0px;
+    font-size: 24px;
+    padding: 15px 0px;
   }
 
   .main-body {
-    font-size: 24px;
-    padding: 15px 70px;
+    font-size: 20px;
+    padding: 15px 40px;
   }
 
   .body-img {
-    width: 400px;
-    margin: 15px 0px 15px 0px;
+    width: 300px;
   }
 
   .reasons-why {
     flex-direction: row;
-    justify-content: top;
+    align-items: center;
+    padding-bottom: 60px;
   }
 }
